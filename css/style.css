@@ -1,9 +1,8 @@
-﻿
-body {
+﻿body {
     padding-top: 80px;
 }
 
-@media screen and (min-width:992px) {
+/*@media screen and (min-width:992px) {
     .container {
         width: 970px;
         margin: auto;
@@ -15,11 +14,48 @@ body {
         width: 750px;
         margin: auto;
     }
+}*/
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 25rem;
+  height: 100%; 
+  z-index: 1000;
+  display: block;
+  background-color: #CCCCCC;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  left: 25rem;
+  bottom: 0;
+  width: auto;
+  height: 100%; 
+  display: block;
+  background-color: #f4f4f4;
+}
+
+@media (min-width: 10px) {
+  .img-profile {
+    margin-top: 10%;
+    max-width: 20rem;
+    max-height: 20rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2); 
+  }
+  .nav-link {
+    width: 100%;
+    height: 5rem; 
+  }
 }
 
 
 
-.form-signin {
+
+/*.form-signin {
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
@@ -52,4 +88,40 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-}
+}*/
+
+
+
+
+/*
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 100vh; }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem; }
+  #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto; }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%; }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block; }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block; }}*/

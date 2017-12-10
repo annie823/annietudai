@@ -17,4 +17,5 @@ personal website
 - art work
 	- sculpture
 	- fan arts
+	- digital design
 	- other works
